@@ -1,6 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+#include "Question.cpp"
+#include "Answer.cpp"
+
 class User{
 
     private:

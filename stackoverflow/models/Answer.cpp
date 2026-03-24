@@ -5,14 +5,14 @@ using namespace std;
 
 
 
-class Answer{
+class Answer:public Votable{
 
     private:
 
     User owner;
     string content;
     
-    Question question;
+    Question* question;
 
 
 

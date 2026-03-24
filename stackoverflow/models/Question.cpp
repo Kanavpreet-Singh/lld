@@ -4,7 +4,7 @@ using namespace std;
 #include "User.cpp"
 #include "Answer.cpp"
 
-class Question{
+class Question:public Votable{
 
     private:
 
@@ -13,6 +13,6 @@ class Question{
 
     User owner;
     
-    vector<Answer> answers;
+    vector<Answer*> answers;
 
 };

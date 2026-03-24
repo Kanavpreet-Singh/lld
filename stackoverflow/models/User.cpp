@@ -12,7 +12,7 @@ class User{
     string email;
     int age;
 
-    vector<Question> questions;
-    vector<Answer> answers;
+    vector<Question*> questions;
+    vector<Answer*> answers;
 
 };
